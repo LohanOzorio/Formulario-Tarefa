@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+* {
+
+ 
+   
+ margin: 0;
+
+
+ text-shadow: 1px 1px 2px rgb(25, 25, 25);
+ font-family: 'Antonio', sans-serif;
+ font-family: 'Inter', sans-serif;
+ color:white;
+
+ 
+ 
+ gap: 2px;
+
+}
+
+#cabeçalho {
+   
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+
+    background-image:url(./imagens/bannerform2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#cabeçalho h1{
+    font-family: 'Sedgwick Ave Display', cursive; 
+    color: white;
+    
+}
+
+#formulario  {
+
+    margin: 10px;
+ 
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    gap: 2px;
+    border-radius: 20px;
+    align-items: normal;
+
+    
+    background-image: url(./imagens/bannerform2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+
+}
+
+ #checkbox{
+
+    margin: 10px;
+    border-radius: 20px;
+   
+    padding: 50px;
+    display: flex;
+    flex-direction:row;
+   
+ 
+    gap: 8px;
+   
+    background-image: url(./imagens/bannerbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#radio{
+    margin: 10px;
+    border-radius: 20px;
+   
+    padding: 50px;
+    display: flex;
+    flex-direction:row;
+    gap: 8px;
+
+    background-image: url(./imagens/bannerbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#butao{
+    margin: 5px;
+    border-radius: 20px;
+   
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    gap: 8px;
+    align-items: center;
+    
+
+    
+}
+
+form input{
+    color: black;
+    text-shadow: none;
+}
+
+form ::placeholder{
+    text-shadow: none;
+}
+
+form legend{
+    text-align: 'center';
+    width: 400px;
+    margin:auto;
+    border: 2px;
+    text-align:center;
+    color: #4901bc;
+  
+}
+
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+
+}
+
+.butao{
+
+    background: #ccb9ff;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow:none;
+    text-shadow: none;
+    
+    width: 150px;
+    height: 50px;
+    
+    cursor: pointer;
+
+}
+
+.butao:hover{
+
+    background: #4901bc;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow:none;
+    text-shadow: none;
+
+}
+
+footer{
+    padding: 24px;
+    text-align: center;
+    color:rgb(46, 46, 46);
+
+}
+
+select{
+    color: rgb(46, 46, 46);
+    text-shadow: none;
+}

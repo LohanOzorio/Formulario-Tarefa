@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Inter:wght@400;500&family=Phudu:wght@300&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div id="cabeçalho">
+      <h1> Formulário de inscrição</h1>
+      <h1>conexões perifericas</h1>
+      <P id="texto"> O conexões perifericas é um porgrama de formação e desenvolvimento profissional no campo da tecnologia de informação. Faça sua inscrição preenchendo os campos abaixo e boa sorte!</P>
+    </div>
+
+    <form >
+       
+        <fieldset>
+        <legend> Dados pessoais </legend>
+
+     <div id="formulario">
+          <label > Nome: </label>
+          <input type="text" placeholder="Seu nome"/>
+          <br>
+          <label > Email:</label>
+          <input type="email" placeholder="email"/>
+          <br>
+          <label >Data de nascimento:</label>
+          <input type="date" placeholder="dd/mm/aaaa"/>
+
+          <br>
+          <p>Estado:</p>
+           <select>
+             
+              <option value="PE">Pernambuco</option>
+              <option value="AC">Acre</option>
+              <option value="SE">Sergipe</option>
+            </select>
+            
+      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>transporte</legend>
+      <div id="checkbox">
+          <input type="checkbox" name="Bike">
+          <label>Bike</label>
+          
+          <input type="checkbox" name="Metro">
+          <label>Metro</label>
+         
+          <input type="checkbox" name="Busao">
+          <label>Onibus</label>
+         
+          <input type="checkbox" name="Uber">
+          <label>Uber</label>
+     </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>conhecimentos</legend>
+     <div id="radio">
+
+          
+          <input type="radio">
+          <label>HTML</label>
+         
+          <input type="radio" >
+          <label>CSS</label>
+          
+          <input type="radio" >
+          <label>JavaScript</label>
+       
+     </div>
+      </fieldset>
+
+     <fieldset>
+     <div id="butao">
+        <input type="submit" class="butao">
+     </div>
+    </fieldset>
+
+    </form>
+
+    <footer>
+        Feito por Lohan Ozório 
+    </footer>
+</body>
+</html>
